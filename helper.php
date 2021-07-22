@@ -7,7 +7,9 @@
 
 namespace Modules\Collect;
 
-use Hubzero\Module\Module;
+require_once PATH_APP . DS . 'libraries' . DS . 'Qubeshub' . DS . 'Module' . DS . 'Module.php';
+
+use Qubeshub\Module\Module;
 use Components\Collections\Models\Archive;
 use Components\Collections\Models\Collection;
 use Components\Collections\Tables\Post;
